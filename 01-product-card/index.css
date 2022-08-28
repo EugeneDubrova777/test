@@ -1,0 +1,138 @@
+body {
+    background-color: #e5e5e5;
+}
+main {
+    padding: 30px;
+}
+.wrapper {
+    width: 1920px;
+    height: 694px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1 {
+    font-family: Arial;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 72px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.productCards__items {
+    width: 1180px;
+    height: 482px;   
+    display: flex;
+    justify-content: space-between;
+}
+.productCards__item {
+    width: 380px;
+    box-shadow: 0px 0px 45px -4px rgba(0, 0, 0, 0.18);
+    border-radius: 12px;
+    position: relative;    
+}
+.productCards__tag-one {
+    width: 111px;
+    height: 25px;
+    position: absolute;
+    left: 16px;
+    top: 16px;
+    z-index: 1;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #2f2f2f;
+    background: #fdcff3;
+    border-radius: 8px;
+}
+.productCards__tag-two {
+    width: 136px;
+    height: 25px;
+    position: absolute;
+    left: 143px;
+    top: 16.33px;
+    z-index: 1;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #2f2f2f;
+    background: #ffcf56;
+    border-radius: 8px;
+}
+.productCards__img img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 380px;
+    height: 213.75px;
+    border-radius: 12px 12px 0px 0px;
+}
+.productCards__name h2 {
+    position: absolute;
+    left: 24px;
+    right: 24px;
+    top: 237.75px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 36px;
+    color: #2f2f2f;
+}
+.productCards__description p{
+    position: absolute;
+    height: 48px;
+    left: 24px;
+    right: 24px;
+    top: 289.75px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #2f2f2f;
+}
+.productCards__button button {
+    position: absolute;
+    left: 24px;
+    top: 410px;
+}
+.button {
+    height: 48px;
+    width: 332px;
+    font-family: Arial;
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: center;
+    text-transform: uppercase;
+    color: #42940f;
+    border: 2px solid #42940f;
+    border-radius: 8px;
+    background: #ffffff;
+}
+.button:hover {
+    background: #42940f;
+    border: 2px solid #42940f;
+    color: #ffffff;    
+}
+.button:active {
+    background: #1f5200;
+    border: 2px solid #1f5200;
+    color: #ffffff;
+}
+.button:disabled {
+    background: #4e4e4e;
+    border: 1px solid #4e4e4e;
+    color: #ffffff;
+}
+
+
